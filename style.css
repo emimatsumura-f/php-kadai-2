@@ -1,6 +1,92 @@
-html{
-    font-family: "RocknRoll One", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+}
 
+@media print {
+    body {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'M PLUS 1p', sans-serif;
+    }
+
+    form {
+    width: 100%;
+    max-width: 190mm;
+    margin: 20mm;
+    padding: 10mm;
+    border: 1px solid #000; /* Optional border */
+    box-sizing: border-box;
+    }
+
+    fieldset {
+    border: none;
+    }
+
+    .btn {
+      display: none; /* Optionally hide buttons during print */
+    }
+}
+
+body {
+    background-color: #e3f6f5;
+    font-family: 'M PLUS 1p', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+    font-size: 1.5em; /* 文字を大きくするためにフォントサイズを調整 */
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 50%; /* 画像の幅を半分に */
+    height: auto;  /* 高さを自動調整 */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button, .answer-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .answer-btn:hover {
+    background-color: #0056b3;
 }

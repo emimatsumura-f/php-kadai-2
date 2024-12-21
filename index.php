@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>健康促進制度導入についてのアンケート</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=RocknRoll+One&display=swap"
-        rel="stylesheet" />
+    <!-- Google Fonts 読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <form action="question_create.php" method="post">
         <fieldset>
             <h3>大象構造 健康促進制度導入についてのアンケート</h3>
+            <img src="index.png" alt="Image">
 
             <label>名前を記入してください<br>
                 <input type="text" name="name" required></label><br>
@@ -70,12 +69,8 @@
             <div class="btn">
                 <a class="answer-btn" href="question_read.php">みんなの回答</a>
             </div>
-
         </fieldset>
-
     </form>
-
-
 </body>
 
 </html>
